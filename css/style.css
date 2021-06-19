@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(100, 26, 255, 0.9);
+}
+
+.color-white {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.bottom-margin {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#team-members {
+    color: rgba(255, 255, 255, 1);
+}
+
+.team-name {
+    font-weight: bold;
+}

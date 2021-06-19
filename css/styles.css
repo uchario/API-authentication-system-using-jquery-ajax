@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: auto;
+}
+
+.header {
+    font-size: 1.8em;
+}
+
+.left-half {
+    background-color: #fff;
+    display: inline-block;
+    margin: 6em;
+}
+
+h1#main-header {
+    color: rgba(51, 51, 204, 1);
+}
+
+h1.sub-header {
+    font-weight: 300;
+}
+
+#welcome-back {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.login:link, a.login:visited {
+    background-color:rgba(51, 51, 204, 1);
+    color: #fff;
+    box-shadow: 1px 3px 8px 3px rgba(68, 0, 204, 0.1), -1px -3px 8px 10px rgba(68, 0, 204, 0.1);
+    border: solid 3px rgba(51, 51, 204, 1);
+    
+}
+
+a.login:hover {
+    background-color: rgba(41, 41, 163, 1);
+    border-color: rgba(41, 41, 163, 1);
+}
+
+a.login:active {
+    color: rgba(51, 51, 204, 1);
+    background-color: #fff;
+}
+
+a.signup:link, a.signup:visited {
+    background-color: #fff;
+    border: solid 3px rgba(51, 51, 204, 1);
+    color: rgba(51, 51, 204, 1);
+    margin-left: 10px;
+}
+
+a.signup:hover {
+    background-color: rgba(51, 51, 204, 0.1);
+}
+
+a.signup:active {
+    background-color: rgba(51, 51, 204, 1);
+    border: solid 2px rgba(51, 51, 204, 0.3);
+    color: #fff;
+}
+
+.pale-gray {
+    color: rgba(100, 100, 100, 0.5);
+}
+
+.form-group {
+    border: solid 3px rgba(100, 100, 100, 0.2);
+    border-left-color: rgba(51, 51, 204, 1);
+    border-left-width: 15px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    max-width: 23rem;
+}
+
+input[type=email], input[type=password] {
+    display: block;
+    color: rgba(51, 51, 204, 1);
+    border: none;
+    padding: 2px;
+    width: 10rem;
+}
+
+#below-header {
+    margin-top: 5em;
+}
+
+form {
+    margin-top: 1.5em;
+}
+
+#password-group {
+    margin-top: 1.5em;
+}
+
+input[type=checkbox] {
+    outline: 1px solid rgba(100, 100, 100, 1);
+}
+
+.remember-password {
+    max-width: 25em;
+    margin: 10px 0px;
+}
+
+.remember-me {
+    margin-left: 4px;
+}
+
+#remember-label {
+    margin-left: 5px;
+}
+
+#forgot-password {
+    margin-left: 6.8rem;
+}
+
+div#controls {
+    margin-top: 15px;
+}
+
+#controls button, #controls a {
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: right;
+    padding: 100px 0;
+}
